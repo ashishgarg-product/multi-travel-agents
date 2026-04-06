@@ -2,9 +2,6 @@
 
 Welcome to the **AI Travel Itinerary Planner**, a modular multi-agent system built with Streamlit, LangGraph, and Ollama. This application leverages multiple AI agents to generate personalized travel itineraries and provide additional travel-related insights based on user preferences. The system is designed for modularity, with agents split into individual scripts for maintainability and scalability.
 
-- **Repository**: [https://github.com/vikrambhat2/MultiAgents-with-Langgraph-TravelItineraryPlanner](https://github.com/vikrambhat2/MultiAgents-with-Langgraph-TravelItineraryPlanner)
-
-
 ## Overview
 
 The AI Travel Itinerary Planner uses a LangGraph workflow to manage a set of agents that collaboratively process user inputs (e.g., destination, month, duration) to produce a detailed itinerary, activity suggestions, weather forecasts, packing lists, food/culture recommendations, useful links, and a chat interface. The system integrates with Ollama (for the `llama3.2` model) and the Google Serper API for web searches.
@@ -84,12 +81,6 @@ MultiAgents-with-CrewAI-TravelItineraryPlanner/
 - Use the buttons to fetch additional details (e.g., activity suggestions, weather forecast, useful links powered by Perplexity Sonar).
 - Interact with the chat to ask questions about your itinerary.
 - Export the itinerary as a PDF using the "Export as PDF" button.
-
-## Contributing
-Feel free to fork this repository, submit issues, or create pull requests to enhance the project. Contributions to improve agent logic, UI, or add new features are welcome!
-
-## License
-This project is open-source. See the [LICENSE](LICENSE) file for details (if applicable).
 
 ## Acknowledgements
 - Built with Streamlit, LangGraph, LangChain, and Ollama.
